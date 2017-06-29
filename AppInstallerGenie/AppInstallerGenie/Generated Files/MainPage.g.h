@@ -7,6 +7,16 @@
 //------------------------------------------------------------------------------
 
 
+namespace Windows {
+    namespace UI {
+        namespace Xaml {
+            namespace Controls {
+                ref class Button;
+                ref class TextBox;
+            }
+        }
+    }
+}
 
 namespace AppInstallerGenie
 {
@@ -23,6 +33,9 @@ namespace AppInstallerGenie
     private:
         bool _contentLoaded;
     
+        private: ::Windows::UI::Xaml::Controls::Button^ GenerateButton;
+        private: ::Windows::UI::Xaml::Controls::TextBox^ textBox;
+        private: ::Windows::UI::Xaml::Controls::Button^ PickButton;
     };
 }
 
