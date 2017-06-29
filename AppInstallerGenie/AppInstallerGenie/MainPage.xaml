@@ -9,5 +9,16 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="textBox" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15,60,10,0" Width="500"/>
+                <Button x:Name="PickButton" Click="PickButton_Click" Content="Select" Margin="0,60,10,0" Width="100"/>
+            </StackPanel>
+            <Button x:Name="GenerateButton" Click="GenerateButton_Click" Content="Generate" Margin="20" HorizontalAlignment="Center" Width="100"/>
+        </StackPanel>
+        
+
+
+
     </Grid>
 </Page>

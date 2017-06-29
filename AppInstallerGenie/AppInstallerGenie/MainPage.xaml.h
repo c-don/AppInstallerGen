@@ -17,5 +17,7 @@ namespace AppInstallerGenie
 	public:
 		MainPage();
 
+	private:
+		void SelectAppPackage(Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
